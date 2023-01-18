@@ -20,7 +20,7 @@ function Furniture() {
     >
       <Stack direction={"row"}>
         <Stack direction={"column"} p={"10px"} minWidth={"100px"} backgroundColor={"#F2F2F2"}>
-            <h6>Sofas</h6>
+            <h4>Sofas</h4>
             <p >3 Seater Sofas</p>
           <p >2 Seater Sofas</p>
           <p >1 Seater Sofas</p>
@@ -32,7 +32,7 @@ function Furniture() {
           <p >Sofa Cum Beds</p>
           <p >Futons</p>
 
-          <h6>Recliners</h6>
+          <h4>Recliners</h4>
 
             <p >3 Seater</p>
           <p >2 Seater</p>
@@ -45,34 +45,34 @@ function Furniture() {
           p={"10px"}
           width={"150px"}
         >
-            <h6>Sofa Chairs</h6>
+            <h4>Sofa Chairs</h4>
 
           <p>Wing Chairs</p>
           <p>Lounge Chairs</p>
           <p>Slipper Chairs</p>
           <p>Barrel Chairs</p>
 
-          <h6>Office Chairs</h6>
+          <h4>Office Chairs</h4>
           <p>Ergonomic Chairs</p>
           <p>Executive Chairs</p>
           <p>Training Chairs</p>
           <p>Guest Chairs</p>
           <p>Cantilever Chairs</p>
 
-          <h6>Gaming Chairs</h6>
+          <h4>Gaming Chairs</h4>
 
-          <h6>Bean Bags</h6>
+          <h4>Bean Bags</h4>
 
         </Stack>
 
         <Stack direction={"column"} p={"10px"} width={"100px"} backgroundColor={"#F2F2F2"}>
-          <h6>Chairs</h6>
+          <h4>Chairs</h4>
           <p>Arm Chairs</p>
           <p>Rocking Chairs</p>
           <p>Folding Chairs</p>
           <p>Iconic Chairs</p>
           <p>Cafe Chairs</p>
-          <h6>Seatings</h6>
+          <h4>Seatings</h4>
           <p>Settees</p>
           <p>Benches</p>
           <p>Ottomans</p>
@@ -99,13 +99,13 @@ function Furniture() {
         </Stack>
 
         <Stack direction={"column"} p={"10px"} width={"100px"}>
-        <h6>Chairs</h6>
+        <h4>Chairs</h4>
           <p>Arm Chairs</p>
           <p>Rocking Chairs</p>
           <p>Folding Chairs</p>
           <p>Iconic Chairs</p>
           <p>Cafe Chairs</p>
-          <h6>Seatings</h6>
+          <h4>Seatings</h4>
           <p>Settees</p>
           <p>Benches</p>
           <p>Ottomans</p>
@@ -116,13 +116,13 @@ function Furniture() {
           
         </Stack>
         <Stack direction={"column"} p={"10px"} width={"100px"} backgroundColor={"#F2F2F2"}>
-        <h6>Chairs</h6>
+        <h4>Chairs</h4>
           <p>Arm Chairs</p>
           <p>Rocking Chairs</p>
           <p>Folding Chairs</p>
           <p>Iconic Chairs</p>
           <p>Cafe Chairs</p>
-          <h6>Seatings</h6>
+          <h4>Seatings</h4>
           <p>Settees</p>
           <p>Benches</p>
           <p>Ottomans</p>
@@ -132,14 +132,14 @@ function Furniture() {
           <p>Seating Stools</p>
           
         </Stack>
-        <Stack direction={"column"} p={"10px"} width={"100px"}>
-        <h6>Chairs</h6>
+        <Stack direction={"column"} p={"10px"} width={"200px"}>
+        <h4>Chairs</h4>
           <p>Arm Chairs</p>
           <p>Rocking Chairs</p>
           <p>Folding Chairs</p>
           <p>Iconic Chairs</p>
           <p>Cafe Chairs</p>
-          <h6>Seatings</h6>
+          <h4>Seatings</h4>
           <p>Settees</p>
           <p>Benches</p>
           <p>Ottomans</p>
@@ -148,14 +148,14 @@ function Furniture() {
           <p>Foot Stools</p>
           <p>Seating Stools</p>
         </Stack>
-        <Stack direction={"column"} p={"10px"} width={"100px"} backgroundColor={"#F2F2F2"}>
-        <h6>Chairs</h6>
+        <Stack direction={"column"} p={"10px"} width={"200px"} backgroundColor={"#F2F2F2"}>
+        <h4>Chairs</h4>
           <p>Arm Chairs</p>
           <p>Rocking Chairs</p>
           <p>Folding Chairs</p>
           <p>Iconic Chairs</p>
           <p>Cafe Chairs</p>
-          <h6>Seatings</h6>
+          <h4>Seatings</h4>
           <p>Settees</p>
           <p>Benches</p>
           <p>Ottomans</p>
@@ -346,11 +346,22 @@ function Decor() {
             </Stack>
           </Stack>
         </Stack>
-
-        <img
-          src="https://ii1.pepperfry.com/media/wysiwyg/banners/Furniture_HoverBanner_25April22.jpg"
-          alt="banner"
-        />
+        <Stack
+          direction={"column"}
+          backgroundColor={"#F2F2F2"}
+          p={"15px"}
+          width={"200px"}
+        >
+          <p style={{ fontWeight: "lighter" }}>Table Clocks</p>
+          <p style={{ fontWeight: "lighter" }}>Vases</p>
+          <p style={{ fontWeight: "lighter" }}>Figurines</p>
+          <p style={{ fontWeight: "lighter" }}>Candle Holders</p>
+          <p style={{ fontWeight: "lighter" }}>Indoor Fountains</p>
+          <p style={{ fontWeight: "lighter" }}>Table Organizers</p>
+          <p style={{ fontWeight: "lighter" }}>Decorative Plates</p>
+          <p style={{ fontWeight: "lighter" }}>Collectables</p>
+          <p style={{ fontWeight: "lighter" }}>Home Fragrances</p>
+        </Stack>
       </Stack>
     </div>
   );
@@ -548,7 +559,7 @@ function Furnishing() {
 }
 
 function Mattresses() {
-    
+
   return (
     <div
       style={{

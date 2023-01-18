@@ -112,6 +112,7 @@ const Navbar = () => {
                         <Hamburger isOpen={hamburgerOpen}/>
                     </div> */}
       </div>
+    
       <Box
           style={{
             display: "flex",
