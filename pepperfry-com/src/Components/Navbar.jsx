@@ -118,7 +118,8 @@ const Navbar = () => {
             display: "flex",
             justifyContent: "centre",
             padding: "15px 0px",
-            // border:"1px solid black",
+            borderTop:"1px solid grey",
+             borderBottom:"1px solid grey",
           }}
         >
           <div style={{display:"flex"}} onMouseEnter={()=>{setShowDropdown(true)}} onMouseLeave={()=>{setShowDropdown(false);setdropCategory(null)}} >

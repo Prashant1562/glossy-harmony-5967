@@ -12,7 +12,7 @@ function Furniture() {
         backgroundColor: "#fff",
         zIndex: 1,
         left: "60px",
-        top: "172px",
+        top: "175px",
 //         opacity: 0,
 //  visibility:"hidden",
         // border:"1px solid black",
@@ -178,7 +178,7 @@ function Kitchen() {
         backgroundColor: "#fff",
         zIndex: 1,
         left: "80px",
-        top: "172px",
+        top: "180px",
       }}
     >
       <Stack direction={"row"}>
@@ -271,7 +271,7 @@ function Decor() {
         backgroundColor: "#fff",
         zIndex: 1,
         left: "80px",
-        top: "172px",
+        top: "175px",
       }}
     >
       <Stack direction={"row"}>
