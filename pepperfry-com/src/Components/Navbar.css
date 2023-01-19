@@ -65,14 +65,87 @@
    
     cursor: pointer;
 }
-
- @media all and (min-width:320px) and (max-width: 480px) {
-    #logobox {
+.droppy{
+  display: flex;
+  justify-content: center;
+  padding: 15px 0px;
+  border-top:1px solid grey;
+   border-bottom:1px solid grey;
+}
+.drop:hover{
+  color:orangered;
+  cursor: pointer;
+}
+ @media all and (min-width:480px) and (max-width:1000px) {
+    .Navv_box {
         margin: auto;
         margin-top: 10px;
-        width: 95%;
+        width: 1200px;
         height: auto;
         /* border: 1px solid grey; */
       }
+      #inputs{
+        width: 50%;
+            background-color: rgba(249, 249, 249, 255);
+           
+            height: 50px;
+            outline: none;
+            border: none;
+            font-size: 25px;
+            color: grey;
+            font-weight: 500;
+            padding-left: 1%;
+            margin-left: 2%;
+    }
+    .droppy{
+      display: grid;
+      width: 100%;
+      grid-template-columns: repeat(5,1fr);
+      padding: 15px 0px;
+      border-top:1px solid grey;
+       border-bottom:1px solid grey;
+    }
+    .droppy li{
+      list-style: none;
+       font-size: 20px;
+        font-weight: 500;
+        margin-left:30px;
+    }
+  }
+  @media all and (min-width:320px) and (max-width:479px) {
+    .Navv_box {
+        margin: auto;
+        margin-top: 10px;
+        width: 1200px;
+        height: auto;
+        /* border: 1px solid grey; */
+      }
+      #inputs{
+        width: 50%;
+            background-color: rgba(249, 249, 249, 255);
+           
+            height: 50px;
+            outline: none;
+            border: none;
+            font-size: 25px;
+            color: grey;
+            font-weight: 500;
+            padding-left: 1%;
+            margin-left: 2%;
+    }
+    .droppy{
+      display: grid;
+      width: 100%;
+      grid-template-columns: repeat(5,1fr);
+      padding: 15px 0px;
+      border-top:1px solid grey;
+       border-bottom:1px solid grey;
+    }
+    .droppy li{
+      list-style: none;
+       font-size: 20px;
+        font-weight: 500;
+        margin-left:30px;
+    }
   }
  

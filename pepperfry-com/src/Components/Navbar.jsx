@@ -15,7 +15,7 @@ const Navbar = () => {
     // }
 
   return (
-    <div>
+    <div className="Navv_box">
          <Box bg="#f5f5f5">
 
           <div
@@ -64,7 +64,7 @@ const Navbar = () => {
                   cursor:"pointer"
                 }}
               >
-                <p>Find pepperfry studio</p>
+                <p style={{color: "#FF7035"}}>Find pepperfry studio</p>
               </li>
             </Stack>
           </div>
@@ -112,13 +112,9 @@ const Navbar = () => {
                         <Hamburger isOpen={hamburgerOpen}/>
                     </div> */}
       </div>
-      <Box
-          style={{
-            display: "flex",
-            justifyContent: "centre",
-            padding: "15px 0px",
-            // border:"1px solid black",
-          }}
+    
+      <div className='droppy'
+          
         >
           <div style={{display:"flex"}} onMouseEnter={()=>{setShowDropdown(true)}} onMouseLeave={()=>{setShowDropdown(false);setdropCategory(null)}} >
             
@@ -200,7 +196,7 @@ const Navbar = () => {
              
             </li>
           </div>
-        </Box>
+        </div>
     </div>
   )
 }
