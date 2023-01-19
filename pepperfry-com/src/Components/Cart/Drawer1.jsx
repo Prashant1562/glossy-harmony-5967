@@ -1,5 +1,6 @@
 import { Box, Button, Drawer, DrawerBody, DrawerCloseButton, DrawerContent, DrawerFooter, DrawerHeader, DrawerOverlay, Flex, Input, StackDivider, Text, useDisclosure, VStack } from "@chakra-ui/react"
 import React from "react"
+import { FaCartArrowDown } from "react-icons/fa"
 import { Tab1 } from "./Tab"
 
 function Drawer1() {
@@ -15,8 +16,8 @@ function Drawer1() {
     // const sizes="sm"
     return (
       <>
-        <Button ref={btnRef} colorScheme='teal' onClick={() => handleClick("md")}>
-          Open
+        <Button ref={btnRef} onClick={() => handleClick("md")}>
+        <FaCartArrowDown/>
         </Button>
         <Drawer
           size={"md"}
