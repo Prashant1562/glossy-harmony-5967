@@ -469,6 +469,54 @@
       "highprice": 60999,
       "rating": 4.1,
       "id": 1
+    },
+    {
+      "img1": "https://ii3.pepperfry.com/media/catalog/product/a/n/494x544/antalya-3-seater-sofa-in-grey-colour-by-urban-living-antalya-3-seater-sofa-in-grey-colour-by-urban-l-f1o3vl.jpg",
+      "img2": "https://ii3.pepperfry.com/media/catalog/product/a/n/494x544/antalya-3-seater-sofa-in-grey-colour-by-urban-living-antalya-3-seater-sofa-in-grey-colour-by-urban-l-f1o3vl.jpg",
+      "img3": "https://ii3.pepperfry.com/media/catalog/product/a/n/198x99/antalya-2-seater-sofa-in-grey-colour-by-urban-living-antalya-2-seater-sofa-in-grey-colour-by-urban-l-orpmp8.jpg",
+      "img4": "https://ii3.pepperfry.com/media/catalog/product/f/a/90x99/fabric-care-kit-fabric-care-kit-nvhcld.jpg",
+      "name": "Antalya 3 Seater Sofa In Grey Colour",
+      "brand": "CasaCraft",
+      "lowprice": 28308,
+      "highprice": 42499,
+      "rating": 4.5,
+      "id": 2
+    },
+    {
+      "img1": "https://ii1.pepperfry.com/media/catalog/product/d/a/494x544/daroo-3-seater-sofa-in-camel-beige-by-febonic-daroo-3-seater-sofa-in-camel-beige-by-febonic-o8dhfm.jpg",
+      "img2": "https://ii1.pepperfry.com/media/catalog/product/d/a/90x99/daroo-1-seater-sofa-in-camel-beige-by-febonic-daroo-1-seater-sofa-in-camel-beige-by-febonic-wpp71i.jpg",
+      "img3": "https://ii1.pepperfry.com/media/catalog/product/d/a/198x99/daroo-2-seater-sofa-in-camel-beige-by-febonic-daroo-2-seater-sofa-in-camel-beige-by-febonic-vizsbw.jpg",
+      "img4": "https://ii1.pepperfry.com/media/catalog/product/f/a/90x99/fabric-care-kit-fabric-care-kit-nvhcld.jpg",
+      "name": "Daroo 3 Seater Sofa In Camel Beige Colour",
+      "brand": "Febonic",
+      "lowprice": 26705,
+      "highprice": 48125,
+      "rating": 4.6,
+      "id": 3
+    },
+    {
+      "img1": "https://ii2.pepperfry.com/media/catalog/product/d/a/494x544/daroo-3-seater-sofa-in-davy-grey-colour-by-febonic-daroo-3-seater-sofa-in-davy-grey-colour-by-feboni-stkaoy.jpg",
+      "img2": "https://ii2.pepperfry.com/media/catalog/product/d/a/494x544/daroo-3-seater-sofa-in-davy-grey-colour-by-febonic-daroo-3-seater-sofa-in-davy-grey-colour-by-feboni-stkaoy.jpg",
+      "img3": "https://ii2.pepperfry.com/media/catalog/product/d/a/198x99/daroo-2-seater-sofa-in-davy-grey-colour-by-febonic-daroo-2-seater-sofa-in-davy-grey-colour-by-feboni-s5mpoi.jpg",
+      "img4": "https://ii2.pepperfry.com/media/catalog/product/f/a/90x99/fabric-care-kit-fabric-care-kit-nvhcld.jpg",
+      "name": "Daroo 3 Seater Sofa In Davy Grey Colour",
+      "brand": "Febonic",
+      "lowprice": 26705,
+      "highprice": 48125,
+      "rating": 4.3,
+      "id": 4
+    },
+    {
+      "img1": "https://ii3.pepperfry.com/media/catalog/product/b/u/568x284/buffalo-3-seater-sofa-in-grey-colour-by-urban-living-buffalo-3-seater-sofa-in-grey-colour-by-urban-l-tvczqd.jpg",
+      "img2": "https://ii2.pepperfry.com/media/catalog/product/f/a/90x99/fabric-care-kit-fabric-care-kit-nvhcld.jpg",
+      "img3": "https://ii2.pepperfry.com/media/catalog/product/f/a/90x99/fabric-care-kit-fabric-care-kit-nvhcld.jpg",
+      "img4": "https://ii2.pepperfry.com/media/catalog/product/f/a/90x99/fabric-care-kit-fabric-care-kit-nvhcld.jpg",
+      "name": "Buffalo 3 Seater Sofa In Grey Colour",
+      "brand": "Urban_Living",
+      "lowprice": 26299,
+      "highprice": 48999,
+      "rating": 3.8,
+      "id": 33
     }
   ]
 }
