@@ -5,7 +5,8 @@ const AllRoutes = () => {
     return (
         <div>
             <Routes>
-                <Route to="/" element={<Home />} />
+                {/* <Route to="/" element={<Home />} /> */}
+                <Route index element={<Home />} />
             </Routes>
         </div>
     )
