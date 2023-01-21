@@ -1,5 +1,5 @@
 import React from 'react';
-import ImgCarousel from '../Components/ImgCarousel';
+import ImgCarousel from '../Components/Navbar/ImgCarousel';
 import { Stack } from "@chakra-ui/react";
 
 const Home = () => {
