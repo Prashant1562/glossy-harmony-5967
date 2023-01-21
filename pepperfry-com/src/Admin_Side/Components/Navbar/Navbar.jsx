@@ -1,11 +1,15 @@
 import React from 'react'
 import {Box,Stack} from "@chakra-ui/react";
 import './Navbar.css';
+import SearchResult from './SearchResult';
 // import Hamburger from "./Hamburger";
 // import { useState } from 'react';
 import {Search2Icon} from "@chakra-ui/icons";
 import { Appliances,Decor,Kitchen, Furnishing, Furniture,Pets, Lighting,Mattresses} from "./DropDown";
 const Navbar = () => {
+
+  const [searchKey,setSearchKey] = React.useState("");
+  const [search,setSearch] = React.useState(false);
     const [showDropdown, setShowDropdown] = React.useState(false);
     const [dropCategory, setdropCategory] = React.useState(null);
     // const [hamburgerOpen, setHamburgerOpen] = useState(false);
@@ -14,6 +18,15 @@ const Navbar = () => {
     //     setHamburgerOpen(!hamburgerOpen)
     // }
 
+    const handleChange = (e) => {
+      console.log("Search", search)
+      setSearchKey(e.target.value)
+      setSearch(false)
+      
+    }
+    const handleRemoveSearch = () => {
+      setSearch(false)
+    }
   return (
     <div className="Navv_box">
          <Box bg="#f5f5f5">
@@ -74,8 +87,11 @@ const Navbar = () => {
       <div>
         <img className="logobar" src="https://techstory.in/wp-content/uploads/2018/03/Pepperfry.png" alt="" srcset="" /></div> 
         
-         <input id="inputs"  type="text" placeholder="Your door to happiness opens with a search" />
+         <input id="inputs"  type="text" placeholder="Your door to happiness opens with a search" value={searchKey} onChange={(e) => handleChange(e)} onClick={() => setSearch(true)}/>
+         
+         {search && <SearchResult handleRemoveSearch={handleRemoveSearch} />}
          <Search2Icon className="searchbar" />
+        
          <div>
          <button className='navbtn'>
          <div>

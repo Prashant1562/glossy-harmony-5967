@@ -1,23 +1,19 @@
 import React from 'react';
-import ImgCarousel from '../Components/Navbar/ImgCarousel';
+import "./home.css"
+import ImgCarousel from "../Components/Navbar/ImgCarousel";
 import { Stack } from "@chakra-ui/react";
 
 const Home = () => {
   return (
 
-    <div style={{
-        display: "flex",
-        flexDirection:"column",
-        justifyContent:"center",
-        marginBottom:"30px"
-      }}>
+    <div className='caro'>
 
         {/* carousel */}
 
  <div style={{ display: "flex",justifyContent: "center",width:"95%",margin:"auto"}}>
-      
-      <ImgCarousel/>
-
+      <div style={{overflow:"hidden"}}>
+      <ImgCarousel className="caro_img"/>
+      </div>
       <img
         style={{ maxHeight:"488px",cursor:"pointer" }}
         src="https://ii2.pepperfry.com/media/wysiwyg/banners/RHS-WEB_2x_1301_16-jan.jpg"
