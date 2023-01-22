@@ -5,6 +5,8 @@ import './Navbar.css';
 // import { useState } from 'react';
 import {Search2Icon} from "@chakra-ui/icons";
 import { Appliances,Decor,Kitchen, Furnishing, Furniture,Pets, Lighting,Mattresses} from "./DropDown";
+import { Link } from 'react-router-dom';
+
 const Navbar = () => {
     const [showDropdown, setShowDropdown] = React.useState(false);
     const [dropCategory, setdropCategory] = React.useState(null);
@@ -122,7 +124,11 @@ const Navbar = () => {
             <li
               style={{ listStyle: "none", fontSize: "14px", fontWeight: "500",marginLeft:"60px"}}
             >
-              <button className='menu' onMouseEnter={()=>{setdropCategory("furniture")}}>Furniture</button>
+              <Link to="/sofas">
+              <button className='menu' onMouseEnter={()=>{setdropCategory("furniture")}}>
+                Furniture
+              </button>
+              </Link>
               {showDropdown && dropCategory==="furniture" ? <Furniture/> : null}
             </li>
 

@@ -14,7 +14,7 @@ const Home = () => {
 
         {/* carousel */}
 
- <div style={{ display: "flex",justifyContent: "center",width:"95%",margin:"auto"}}>
+ <div style={{ display: "flex",justifyContent: "center",width:"90%",margin:"auto"}}>
       
       <ImgCarousel/>
 
