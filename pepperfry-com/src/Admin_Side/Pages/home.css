@@ -1,0 +1,33 @@
+.caro{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-bottom: 30px;
+}
+@media all and (min-width:480px) and (max-width:1000px) {
+    .caro{
+        display: flex;
+        width: 1200px;
+        margin: auto;
+        flex-direction: column;
+        justify-content: center;
+        margin-bottom: 30px;
+    }
+    .caro_img img{
+        width: 1000px;
+    }
+}
+
+@media all and (min-width:320px) and (max-width:479px) {
+    .caro{
+        display: flex;
+        width: 1200px;
+        margin: auto;
+        flex-direction: column;
+        justify-content: center;
+        margin-bottom: 30px;
+    }
+    .caro_img img{
+        width: 1000px;
+    }
+}

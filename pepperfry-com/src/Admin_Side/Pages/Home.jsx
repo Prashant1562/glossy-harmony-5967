@@ -1,16 +1,12 @@
 import React from 'react';
-import ImgCarousel from '../Components/Navbar/ImgCarousel';
+import "./home.css"
+import ImgCarousel from "../Components/Navbar/ImgCarousel";
 import { Stack } from "@chakra-ui/react";
 
 const Home = () => {
   return (
 
-    <div style={{
-        display: "flex",
-        flexDirection:"column",
-        justifyContent:"center",
-        marginBottom:"30px"
-      }}>
+    <div className='caro'>
 
         {/* carousel */}
 

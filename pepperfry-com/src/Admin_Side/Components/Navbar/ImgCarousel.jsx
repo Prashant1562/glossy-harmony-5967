@@ -9,7 +9,7 @@ function ImgCarousel(){
 
           <Carousel  showThumbs={false} autoPlay={true} interval={3000} infiniteLoop>
 
-                <div style={{cursor : "pointer" }}>
+                <div >
 
                     <img style={{width:"1000px" }}  src="https://ii1.pepperfry.com/media/wysiwyg/banners/Web_Promo_2x_1601_ND.jpg" alt="carousel"/>
                    
