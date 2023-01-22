@@ -55,9 +55,6 @@
     background-color: #ff7035;
     cursor: pointer;
 }
-.product_card_image > button:hover {
-    zoom: 105%;
-}
 
 
 

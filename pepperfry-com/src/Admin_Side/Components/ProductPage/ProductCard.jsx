@@ -10,7 +10,9 @@ const ProductCard = (props) => {
 
     const handleClick = () => {
         dispatch(addToCart(props)).then(() => {
-            alert("product added successfully")
+        })
+        .catch(() => {
+            alert("product already added into the cart")
         })
     }
 

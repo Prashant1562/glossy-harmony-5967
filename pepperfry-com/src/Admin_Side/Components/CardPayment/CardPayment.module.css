@@ -1,0 +1,322 @@
+.wrapperDiv {
+    width: 100%;
+    height: 100%;
+}
+  
+.maindiv {
+    max-width: 960px;
+    margin: auto;
+    box-shadow: 6px 6px 7px 2px rgba(0, 0, 0, 0.25);
+    display: flex;
+    flex-direction: row;
+    margin-top: 8vh;
+}
+  
+.maindiv p {
+    margin: 0px;
+    padding: 0px;
+}
+
+.leftDiv {
+    width: 440px;
+    height: 644px;
+    border-left: 5px solid rgb(16, 142, 233);
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    border-right: 1px solid #E7e7e7;
+    padding: 0px 20px;
+}
+  
+.leftDiv1 {
+    width: 480px;
+    height: 30px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 34px;
+}
+  
+.leftDiv1 a {
+    text-decoration: none;
+    color: inherit;
+}
+  
+.leftDiv1 a:hover {
+    color: #F16521;
+}
+
+.leftDiv11 {
+    width: 64px;
+    height: 24px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+  
+.left11p {
+    font-family: "Hammersmith One", sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 24px;
+    margin-left: 10px;
+}
+
+.leftDiv12img {
+    width: 130px;
+    height: auto;
+    margin-right: 100px;
+}
+
+.leftDiv2 {
+    margin-top: 70px;
+    text-align: left;
+}
+  
+.leftDiv2p {
+    padding: 10px;
+    font-family: "Hammersmith One", sans-serif;
+    font-style: normal;
+    font-weight: 400px;
+    font-size: 24px;
+    line-height: 24px;
+    letter-spacing: 0.06em;
+    color: #000000;}.leftDiv3 {
+    width: 395px;
+    height: 40px;
+    margin-top: 28px;
+    text-align: left;}.leftDiv3p {
+    padding: 10px;
+    font-family: "Hammersmith One", sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0.06em;
+    color: #000000;
+}
+  
+.leftDiv3p > span {
+    font-weight: 700;
+}
+  
+.leftDiv4 {
+    width: 395px;
+    height: 42px;
+    margin-top: 10px; 
+    text-align: left;}.leftDiv4p {
+    font-family: "Fira Sans", sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 18px;
+    letter-spacing: 0.06em;
+    color: #707070;
+}
+
+.leftDiv5 {
+    width: 400px;
+    height: 148px;
+    margin-top: 39px;
+}
+
+.leftDiv5 > p {
+    font-family: "Fira Sans", sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 16px;
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.06em;
+    color: #707070;
+    padding-left: 20px;
+}
+
+.leftDiv5 hr {
+    margin-left: 20px;
+    width: 200px;
+    border: 1px dashed;
+    color: #707070;
+    margin-top: 15px;
+}
+  
+.leftDiv6 {
+    max-width: 481px;
+    height: 112px;
+    background-color: white;
+    margin-top: 20px;
+}
+  
+.leftDiv611 {
+    max-width: 388px;
+    height: 120px;
+    font-family: 'Hammersmith One', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    background-color: rgb(74, 144, 226);
+    letter-spacing: 0.06em;
+    color: #000000;
+    border-radius: 10px;
+    padding: 10px 10px;
+    padding-bottom: 10px;
+    text-align: left;
+}
+
+.rightDiv {
+    width: 480px;
+    height: 364px;
+}
+
+.rightDiv1 {
+    width: 200px;
+    height: 18px;
+    margin-top: 48px;
+    line-height: 18px;
+    padding: 0px 10px;
+}
+  
+.rightDiv1p {
+    font-family: "Fira Sans", sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    padding-left: 32px;
+    letter-spacing: 0.06em;
+    color: #707070;
+}
+
+.rightDiv2 {
+    max-width: 480px;
+    height: 520px;
+    margin-top: 24px;
+}
+
+.form1 {
+    width: 276px;
+    height: 380px;
+}
+
+.formwrapper {
+    border-left: 5px solid rgb(16, 142, 233);
+    padding-left: 50px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    text-align: left;
+    background-color: #F9F9F9;
+}
+  
+.formwrapper input:focus {
+    border: 1px solid rgb(16, 142, 233);
+    outline: none !important;
+}
+
+.form1 > label {
+    font-family: "Fira Sans", sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 18px;
+    letter-spacing: 0.06em;
+    color: #000000;
+}
+  
+.formInputdiv {
+    width: 260px;
+    height: 44px;
+    border: 1px solid #707070;
+    margin-top: 16px;
+    padding-left: 15px;
+    background-color: #f3f5f7;
+    font-family: "Fira Sans", sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.06em;
+    border-radius: 4px;
+}
+  
+.cvvandExpiryDiv {
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+}
+  
+.cvvandExpiryDiv input {
+    border: 1px solid #707070;
+    border-radius: 4px;
+    font-family: "Fira Sans", sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.06em;
+}
+  
+.formexpiry {
+    max-width: 120px;
+    height: 34px;
+    padding-left: 15px;
+    background: #f3f5f7;
+    outline: none;
+    border: 1px solid #f3f5f7;
+}
+
+.cvvandExpiryDiv > label {
+    margin-bottom: 15px;
+    font-family: "Fira Sans", sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 18px;
+    letter-spacing: 0.06em;
+    color: #000000;
+}
+
+.checKboxdiv {
+    margin-top: 10px;
+    margin-left: -14px;
+    font-family: "Fira Sans", sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 18px;
+    color: #707070;
+}
+  
+.proceedbtn {
+    width: 276px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 50px;
+    margin: auto;
+    background: #4a90e2;
+    border-radius: 4px;
+    margin-top: 20px;
+    border: 0px;
+    font-family: "Fira Sans", sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 20px;
+    color: white;
+}
+  
+.proceedbtn:hover {
+    background-color:#4a91e2bd;;
+}
+  
+.proceedbtn:focus {
+    background-color: #5698e2;
+}
+  
+.formwrapper input::-webkit-outer-spin-button, input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
