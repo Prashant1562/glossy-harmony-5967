@@ -7,6 +7,8 @@ import {
 import { Input } from '@chakra-ui/react'
 import { Button } from '@chakra-ui/react'
 import { Box } from '@chakra-ui/react'
+import styles from './login.module.css'
+import logo from './fur2.png'
 
 
 
@@ -46,22 +48,38 @@ export const Register = () => {
 
   return (
       <>
-          <form onSubmit={onSubmit}>
+          <div className={styles.body}>
+          <div className={styles.maindiv}>
+              <div className={styles.div1}>
+                   <img className={styles.img} src={logo} alt="hi"/>
+              </div>
+              <div className={styles.div2}>
+                  <form className={styles.form} onSubmit={onSubmit}>
               <Box>
                   <FormLabel htmlFor="text">Name</FormLabel>
-                  <Input type="text" value={ name} onChange={(e)=>setName(e.target.value)}/>
-              </Box>
+                  <Input className={styles.input_field} type="text" value={ name} onChange={(e)=>setName(e.target.value)}/>
+                      </Box>
+                      <br/>
               <Box>
                   <FormLabel htmlFor="email">Email</FormLabel>
-                  <Input type="email" value={ email} onChange={(e)=>setEmail(e.target.value)}/>
-              </Box>
+                  <Input className={styles.input_field} type="email" value={ email} onChange={(e)=>setEmail(e.target.value)}/>
+                      </Box>
+                      <br/>
               <Box>
                   <FormLabel htmlFor="password">Password</FormLabel>
-                  <Input type="password" value={password} onChange={(e)=>setPassword(e.target.value)}/>
-              </Box>
+                  <Input className={styles.input_field} type="password" value={password} onChange={(e)=>setPassword(e.target.value)}/>
+                      </Box>
+                      <br />
+                      <br/>
+                      <br/>
               
-              <Button type="submit">Register</Button>
+              <Button className={styles.button}  type="submit">Register</Button>
           </form>
+              </div>
+              </div>
+              </div>
+              
+          
       </>
   )
 }
