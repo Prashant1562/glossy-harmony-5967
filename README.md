@@ -3,6 +3,11 @@
 
 Pepperfry is an online furniture shopping website which showcases a curated range of home furniture & cutting-edge furniture designs. A clone of the Pepperfry Website.  developed using ReactJS, ReduxToolkit, Styled-components.
 
+
+## The deploy link is here
+https://pepperfry-clone-com.netlify.app/
+
+
 # Built With
 - React JS
 - Redux
