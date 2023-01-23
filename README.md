@@ -37,7 +37,7 @@ https://pepperfry-clone-com.netlify.app/
 # Some screenshots of the project
 1. Home Page
    
-![Home Page](/Frontend/src/Images/Readme/homepage.png)
+![Home Page](/readme_images/Home1.png)
 
 2. Register popup
    
