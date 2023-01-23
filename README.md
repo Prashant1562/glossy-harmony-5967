@@ -35,18 +35,36 @@ https://pepperfry-clone-com.netlify.app/
 - Checkout and payment
 
 # Some screenshots of the project
+1. Home Page
+   
+![Home Page](/Frontend/src/Images/Readme/homepage.png)
 
+2. Register popup
+   
+![Register Popup](/Frontend/src/Images/Readme/login.png)
 
+3. Product list Page
+   
+![Product List Page](/Frontend/src/Images/Readme/productlistpage.png)
 
+4. Product Details Page
 
+![Product Detail Page](/Frontend/src/Images/Readme/productdetail.png)
 
+5. Cart
+   
+![Cart](/Frontend/src/Images/Readme/cart.png)
 
+6. Checkout Page
 
+![Checkout Page](/Frontend/src/Images/Readme/checkout.png)
 
+7. Card Gateway
 
+![Card Gateway Page](/Frontend/src/Images/Readme/cardgateway.png)
 
+8. Thankyou Page (Order Placed, Continue Shopping) 
 
-
-
+![Thankyou Page](/Frontend/src/Images/Readme/thankyou.png)
 
 # Thank you reading
