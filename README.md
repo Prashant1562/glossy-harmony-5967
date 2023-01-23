@@ -5,7 +5,7 @@ Pepperfry is an online furniture shopping website which showcases a curated rang
 
 
 ## The deploy link is here
-https://pepperfry-clone-com.netlify.app/
+pepperfry-clone-com.netlify.app/
 
 
 # Built With
